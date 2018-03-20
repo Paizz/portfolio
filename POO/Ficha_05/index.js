@@ -36,7 +36,7 @@ class Retangulo{
     }
 }
 
-Exercicio 1
+//Exercicio 1
 let meuRetangulo = new Retangulo(4,5)
 console.log(meuRetangulo.largura)
 console.log(meuRetangulo.altura)

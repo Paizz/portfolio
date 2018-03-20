@@ -41,7 +41,7 @@ function funcA(){
 //FUNÇÃO para listar os nomes das propriedades do objeto, remover propriedade e listar novamente
 function funcB(){
     funcA()
-    delete.student.grade
+    delete student.grade
     funcA()
 }
 
@@ -58,7 +58,7 @@ function funcD(){
     let grade = parseInt(prompt("Digite um numero?"))
 
     //Adicionar
-    let grade{name :myName, grade: myGrade}
+    let grade,{name :myName, grade: myGrade}
 
     //Adicionar objeto ao Array
     grade.push(grade)
