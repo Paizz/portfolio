@@ -114,6 +114,7 @@ function funcD(){
     car.push(myCar)
     car.push(myCar2)
 
+    //mudar a cor do carro
     function funG(){
         //Listar os carros que há na garagem
         for(let i=0; i<grades.length; i++){
@@ -128,3 +129,17 @@ function funcD(){
             console.log(car[i].marca + "-" + car[i].cor)
         }
     }
+
+    function funcH(cyl_altura, cyl_raio){
+        this.cyl_altura = cyl_altura;
+        this.cyl_raio = cyl_raio;
+        let cyl = new Cylinder(7, 4)
+
+    }
+    Cylinder.prototype.Volume = function () {
+        return this.cyl_height * Math.PI * this.cyl_raio * this.cyl_raio;
+      };
+      
+      var cyl = new Cylinder(7, 4);
+      // Volume of the cylinder with four decimal places.
+      console.log('volume =', cyl.Volume().toFixed(4));
